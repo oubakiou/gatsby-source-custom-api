@@ -1,0 +1,64 @@
+{
+  "_from": "git+https://github.com/oubakiou/gatsby-source-custom-api.git",
+  "_id": "gatsby-source-custom-api@2.0.4",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/gatsby-source-custom-api",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "gatsby-source-custom-api@git+https://github.com/oubakiou/gatsby-source-custom-api.git",
+    "name": "gatsby-source-custom-api",
+    "escapedName": "gatsby-source-custom-api",
+    "rawSpec": "git+https://github.com/oubakiou/gatsby-source-custom-api.git",
+    "saveSpec": "git+https://github.com/oubakiou/gatsby-source-custom-api.git",
+    "fetchSpec": "https://github.com/oubakiou/gatsby-source-custom-api.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/oubakiou/gatsby-source-custom-api.git#8c60dc3812c031c2b3df6de4597d4fac24a5776c",
+  "_spec": "gatsby-source-custom-api@git+https://github.com/oubakiou/gatsby-source-custom-api.git",
+  "_where": "/Users/ouba/Desktop/gcsr/cubcab/gatsby/cubcab",
+  "author": {
+    "name": "Andreas Faust"
+  },
+  "bugs": {
+    "url": "https://github.com/AndreasFaust/gatsby-source-custom-api/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "gatsby-source-filesystem": "^2.0.29",
+    "node-fetch": "^2.3.0",
+    "uuid": "^3.3.2"
+  },
+  "deprecated": false,
+  "description": "Source data from any API and transform it into Gatsby-nodes. Download your image files and use them with Gatsby Image.",
+  "devDependencies": {
+    "generate-changelog": "^1.7.1"
+  },
+  "homepage": "https://github.com/AndreasFaust/gatsby-source-custom-api#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "source",
+    "api",
+    "json",
+    "image",
+    "cache"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "gatsby-source-custom-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasFaust/gatsby-source-custom-api.git"
+  },
+  "scripts": {
+    "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
+    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
+    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
+  },
+  "version": "2.0.4"
+}
